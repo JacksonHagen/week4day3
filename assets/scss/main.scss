@@ -1,0 +1,30 @@
+@import "./_variables.scss";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "./_overrides.scss";
+@import "./custom.scss";
+@import "./loaders.scss";
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: $body-bg;
+}
+header{
+  height: 10vh;
+  padding-bottom: 0%;
+}
+
+main {
+  flex-grow: 1;
+}
+.all-pokemon{
+  height: 90vh;
+  overflow-y: auto;
+}
+.capitalize{
+  text-transform: capitalize;
+}
+
+
+
